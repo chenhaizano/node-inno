@@ -17,7 +17,7 @@ begin
 
 	InitFairy(WizardForm.Handle, 0, 20 );
 
-	if {{ui.closeButton.show}} then begin
+	if {{ui.shadowBg.show}} then begin
 		AddImgToList(-20, -20, 255, clNone, ExpandConstant('{tmp}\shadow.png'))
 	end;
 
